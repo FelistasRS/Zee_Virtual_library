@@ -1,0 +1,146 @@
+  body{
+       margin: 0;
+       padding: 0;
+  }
+   .site-content {
+       background-image: url 'download.jfif';
+       background-repeat: repeat;
+   }
+   *{
+       font-family: Aclonica;
+       color: black;
+   }
+    nav{
+        width: 100vw;
+        height:8vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .brand {
+       font-size: 4vw;
+       font-family: Berkshire Swash;
+       margin-left: 5vw;
+       margin-top: 4vh;
+    }
+    .nav-item {
+        margin-top: 6vh;
+        padding: 2vw;
+        font-size: 1vw;
+    }
+    .search-bar {
+        width: 200%;
+        max-width: 700px;
+        background:lime;
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 0px 10px;
+    }
+    .search-bar input{
+        background: transparent;
+        flex:1;
+        outline: none;
+        padding: 10px 10px;
+        font-size: 15px;
+        border: 0;
+
+    }
+   
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .content {
+        text-align: center ;
+    }
+    .content h3{
+        padding: 0;
+        margin: 0;
+        text-shadow: 20px 20px 60px orange;
+    }
+   h2 {
+            font-size: 2vw;
+            color: lime;
+
+    }
+    h1 {
+        font-size: 2vw;
+        color:white;
+    }
+  h3 {
+        font-size: 2vw;
+        color:orange;
+        text-shadow: 20px 10px 60px orange;
+    }
+    h4 {
+        font-size: 2vw;
+        color:white;
+    }
+.brand {
+    font-size: 2vw;
+    color: white;
+}
+.nav-item {
+    font-size: 2vw;
+    color: white;
+}
+.nav-item:hover {
+    transform: scale(1.2);
+}
+
+
+    .container
+{
+   position: relative;
+   width: 1000px;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 10% ;
+}
+.container .card {
+   width: 600px;
+   position: relative;
+   height: 800px;
+   background: #e68210;
+   margin: 40px 20px;
+   padding: 30px 20px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 5px 10px #e6e6e6bd;
+   transition: 0.3s ease-in-out;
+   margin-top: 5%;
+}
+.container .card .imgBx{
+   position:relative;
+   width: 400PX;
+   height: 300px;
+   top: -80px;
+   left: 20px;
+   box-shadow: 0.5px 20px rbga (0,0,0,1,2);
+
+}
+
+.container  .card .imgBx img{
+   max-width: 60%;
+   border-radius: 15px;
+}
+
+.imgBx:hover img{
+   transform: scale(1.2);
+}
+*{
+margin: 0px;
+padding: 10px 10px;
+border: none;
+font-family: 'Ariel', sans-serif; 
+
+}
+
+
+    

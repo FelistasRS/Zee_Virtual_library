@@ -1,0 +1,27 @@
+body{
+   
+    background-image:url('istockphoto-135341581-170667a.jpg'); 
+    background-repeat: no-repeat;
+    backdrop-filter: blur(6px);
+    background-blend-mode: blur(6px);
+    font-family: 'Arial' ;
+    background-size: 2000px;
+   
+}
+ h2{
+    font-size: 40px;
+    align-self: center;
+    color: rgb(217, 218, 228);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ h1{
+   font-size: 24px;
+   align-self: center;
+   color: rgb(5, 5, 5);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .newbook {
+    color: lime;
+    font-size: 20px;
+    
+ }
